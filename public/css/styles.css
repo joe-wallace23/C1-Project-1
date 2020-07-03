@@ -1,0 +1,852 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+html{
+    scroll-behavior: smooth;
+}
+.navbar-brand img{
+    width: 140px;
+   
+}
+.navbar{
+    background-color: transparent;
+}
+.nav-link{
+    color: black !important;
+    font-size: 15px;
+}
+.nav-link:hover{
+    background-color: white;
+}
+.navbar-toggler{
+    border: none !important;
+}
+.toggler-btn{
+    border: 2px solid black;
+    padding: 5px;
+    transition: all 2s ease;
+}
+.bar{
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    background: black;
+    transition: all 0.5s ease;
+}
+.change .bar1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.change .bar2{
+    opacity: 0;
+}
+.change .bar3{
+    transform: rotate(45deg) translate(-5px, -8px);
+}
+
+
+
+.dropdown-menu {
+    background-color: 
+    white;
+    border-radius: 0px !important;
+    border: 1px solid gray;
+}
+
+.dropdown-item:hover{
+  
+    background-color:lightgray;
+    border-radius: 50px;
+   
+ }
+ .dropdown-item{
+  color:black;
+    
+ }
+ .header-link{
+    display: inline-block;
+    position: absolute;
+    bottom: 5%;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+    transition: all 2s ease;
+    animation: fromBottom;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.header-link:hover{
+    color: black;
+}
+.header-link{
+    color: black;
+    font-size: 40px;
+}
+
+@keyframes fromBottom{
+    0%{
+        transform:translateY(-10px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+/* End Navbar */
+
+/* home area */
+
+/* home section */
+.house .home{
+    background-image: url(/images/Add\ a\ little\ bit\ of\ body\ text\ \(3\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.house .home {
+    padding-top: 400px;
+
+}
+.house .home .content .title{
+    color: black;
+}
+.house .home .content {
+    padding: 5px 0px;
+}
+.house .home .content .para{
+    color: black;
+    padding-top: 5px;
+    font-size: 20px;
+}
+/* message section */
+.house .message{
+    padding:80px 0px;
+}
+.house .message .content .para p{
+    font-size: 34px;
+    color:
+#464654;
+letter-spacing: 2px;
+
+}
+
+/* message section*/
+/* Clouds section */
+.house .clouds {
+   padding: 100px 0px;
+}
+.house .clouds .images img{
+    width: 100%;
+    padding: 0px 50px;
+    height: 500px;
+}
+
+
+
+
+/* End Clouds section */
+/* intro section*/
+
+.house .intro{
+    padding: 80px 0px;
+    background-image: url(/images/Intro-section.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+.house .intro .content .title h3{
+    color: white;
+    font-size: 1.95rem;
+}
+.house .intro .content{
+   padding-top: 500px;
+}
+.house .intro .button{
+   margin-top: 30px;
+ }
+ .house .intro .button .make{
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    text-decoration: none;
+  }
+  .house .intro .button .make:hover{
+    background-color: black;
+    color: white;
+    transition: all .5s ease-in-out;
+  }
+/* end intro section*/
+/* Team section */
+.house .team{
+    padding: 100px 0px;
+}
+.house .team  .images img{
+    width: 100%;
+}
+
+.house .team  .para p{
+    color: rgba(0,0,0,0.6);
+    font-size: 22px;
+    line-height: 1.3;
+    padding-top: 10px;
+    
+}
+.house .team .padding{
+    padding-top: 100px;
+}
+.house .team .col-md-6{
+    padding-bottom:  100px;
+}
+/* End Team section*/
+
+/* NASAV  section */
+.house .NASAV{
+    padding: 80px 0px;
+}
+
+.house .NASAV .video iframe{
+  width: 100%;
+  height: 700px;
+}
+/* end NASAV section */
+/* contactUS section */
+.house .contactUS {
+    padding: 80px 0px;
+}
+.house .contactUS .content .title h3{
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+}
+.house .contactUS .content .para p{
+    font-size: 20px;
+    color: #444444;
+    letter-spacing: 1px;
+}
+.house .contactUS .content .para .US{
+   background-color: transparent;
+   border: 1px solid black;
+   padding: 10px 30px;
+  color: black;
+  text-decoration: none;
+   
+}
+.house .contactUS .content .para .US{
+  position: relative;
+  top: 25px;
+    
+ }
+
+/* End contactUS section */
+
+/* Project section */
+.house .projects{
+    padding: 80px 0px;
+}
+.house .projects .title h1{
+    padding-bottom: 20px;
+}
+
+.house .projects .content .images img{
+  width: 100%;
+  height: 400px;
+  padding-bottom: 30px;
+
+}
+/* End Project section */
+/* End home area */
+
+/* Contact area */
+.honey .contact{
+margin-top: 100px;
+}
+
+.honey .contact{
+    padding: 80px 0px;
+}
+.honey .contact .content .title h1{
+   padding-bottom: 20px;
+}
+.honey .contact .content .para p{
+    width: 900px;
+    color: black;
+    font-size: 14px;
+    line-height: 1.6em;
+
+}
+.honey .info{
+  padding-bottom: 80px;
+}
+.honey .info .contact-form .form-group .form-control{
+    width: 700px;
+    height: 50px;
+    border: none;
+  }
+  .honey .info .contact-form .form-group{
+   
+   border-bottom: 2px solid black;
+   padding: 10px 0px;
+  }
+  .honey .info .contact-form .jk{
+   position: relative;
+   top: 20px;
+   border: 2px solid black;
+   color: black;
+   background-color: transparent;
+   padding: 10px 50px;
+
+   }
+
+   .honey .intro .contact-form .form-group .form-control ::placeholder{
+       color: black;
+   }
+
+
+/* End Contact area */
+/* Success area */
+.success .hugs{
+    margin-top: 100px;
+    }
+
+/* End Success area */
+/* Failure area */
+.failure .fall{
+    margin-top: 100px;
+    }
+    .failure .fall .btn{
+        border: 1px solid black;
+    }
+/* End Failure area */
+/* about area */
+.about .fact{
+    margin-top: 100px;
+    padding: 80px 0px;
+}
+.about .fact .content .title h1{
+    color: black;
+    letter-spacing: 3px;
+    font-size: 50px;
+}
+.about .fact .content .para p{
+   color: #464654;
+   font-size: 32px;
+   letter-spacing: 2px;
+
+}
+.about .cats{
+    padding: 50px 0px;
+}
+.about .cats .images img{
+    width: 100%;
+ 
+    padding: 0px 30px;
+    height: 400px;
+}
+.about .cats .col-md-6 {
+    padding-bottom: 40px;
+}
+/* buns section */
+.about #buns {
+    padding: 50px 0px;
+}
+.about #buns .card{
+    background-color: #f9f9f9 !important;
+}
+.about  #buns .title h3{
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.about  #buns .van{
+  padding: 30px;
+}
+.about  #buns .para p{
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+.about #buns .card .col-md-6{
+    padding-bottom: 30px;
+}
+
+.about  #buns .para .sheet{
+    border: 1px solid black;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+
+.about  #buns  .images img{
+    width: 100%;
+    height: 200px;
+}
+/* End buns section */
+
+/* run section */
+.about .run{
+    padding: 50px 0px;
+}
+.about .run .content .images img{
+    width: 100%;
+}
+.about .run .pad{
+    padding-top: 50px;
+}
+.about .run .content .title h3{
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.about .run .content .para p{
+   font-size: 18px;
+   line-height: 1.5;
+   color: black;
+}
+.about .run .content .para .limmited{
+   border: 1px solid black;
+   position: relative;
+   top: 20px;
+   text-transform: capitalize;
+   padding: 10px 30px;
+   color: black;
+   text-decoration: none;
+
+ }
+
+/*end run section*/
+/* joe section */
+.about .joe{
+    background-image: url(/images/van-section-images.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+/* end section*/
+/* End about area */
+/* Gallery area */
+.shop .boos {
+    margin-top: 100px;
+}
+.shop .boos .content .title h1{
+    font-size: 3rem;
+    line-height: 1.5;
+    color: black;
+
+}
+.shop .sconce  .col-lg-4{
+    padding-bottom: 30px;
+}
+.shop .sconce .content .images img{
+    width: 100%;
+    height: 300px;
+    padding: 0px 30px;
+}
+
+/* End Gallery area */
+/* Blog area */
+.blog .studio{
+    margin-top: 100px;
+}
+.blog .cluster .container{
+    width: 900px;
+}
+.blog .cluster{
+    padding: 80px 0px;
+}
+.blog .cluster .content .images img{
+    width: 100%;
+    height: auto;
+}
+.blog .cluster .content .title h2{
+    font-size: 2.25rem;
+    line-height: 1.5;
+    font-weight: 500;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.blog .cluster .content .meta strong{
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.blog .cluster .content .para p{
+    font-size: 14px;
+    line-height: 1.6;
+    color: black;
+  }
+  .blog .cluster .content .more{
+      font-size: 13px;
+      border-bottom: 1px solid black;
+      color: black;
+    
+  }
+  .blog .cluster .content .more:hover{
+   text-decoration: none;
+  
+}
+.blog .cluster .col-md-12{
+    padding-bottom:100px;
+}
+/* end Blog area */
+/* Footer area */
+ .bottom{
+    background-image: url(/images/footer-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+ .bottom{
+  
+    padding-top: 450px;
+    padding-bottom: 20px;
+
+}
+footer{
+    position: relative;
+    bottom: 0 !important;
+}
+.bottom .content .title h3{
+   color: white;
+   font-size: 18px;
+   font-weight: 500;
+}
+.bottom .content .list ul{
+   list-style: none;
+   line-height: 1.7;
+ }
+
+  .bottom .content .list ul li a{
+   font-size: 13px;
+   color: white;
+   text-decoration: none;
+
+  }
+  .bottom .content .social-icons ul{
+   list-style: none;
+ 
+   }
+   .bottom .content .social-icons ul li{
+    display: inline-block;
+   margin-right: 10px;
+  
+    }
+    .bottom .content .social-icons ul li a{
+        font-size: 20px;
+        color: white;
+      
+        }
+        .bottom .content .contact-form .form-group{
+            border-bottom: 1px solid white;
+            
+        }
+        .bottom .content .contact-form .form-control{
+            border: none;
+            background-color:transparent;
+        }
+        .bottom .content .contact-form .form-control[type=text]{
+           color: white;
+        }
+        .bottom .content .contact-form .form-control[type=email]{
+            color: white;
+         }
+         .bottom .content .contact-form  .btn{
+             position: relative;
+             top: 10px;
+             border: 1px solid white;
+             color: white;
+             border-radius: 50px;
+         }
+
+         .bottom .copyright{
+             font-size: 13px;
+             color: #606060;
+             padding-top: 20px;
+         }
+/* End Footer area */
+
+@media(max-width:990px){
+    /* home area */
+
+    /* Start home section */
+    .house .home {
+        padding-top: 300px;
+    } 
+    /* End home section */
+    /* Start message section */
+    .house .message .content .para p {
+        font-size: 20px;
+        color: 
+        #464654;
+        letter-spacing: 2px;
+        padding: 100px 0px;
+    }
+    /* End message section */
+    /* clouds section */
+    .house .clouds .images img {
+        width: 100%;
+        padding: 0px 50px;
+            padding-bottom: 0px;
+        height: 400px;
+        padding-bottom: 30px;
+    }
+
+    /* End clouds section */
+    /* intro section */
+    .house .intro .content {
+        padding-top: 300px;
+    }
+    /* end intro section */
+    /* team section */
+    .house .team .col-md-6{
+        padding-bottom:  40px;
+    }
+    /* End team section */
+
+    /* NASAV  section */
+
+
+.house .NASAV .video iframe{
+  width: 450px;
+  height: 300px;
+}
+/* end NASAV section */
+
+    /* end home area */
+
+    /* Contact area */
+
+    
+    .honey .contact{
+        padding: 80px 0px;
+    }
+   
+    .honey .contact .content .para p{
+        width: 100%;
+        padding: 0px 20px;
+    
+    }
+    .honey .info .contact-form .form-group .form-control{
+        width: 300px;
+        height: 50px;
+        border: none;
+      }
+    
+    /* End Contact area */
+
+
+    /* about area */
+.about .fact{
+    margin-top: 100px;
+    padding: 80px 0px;
+}
+.about .fact .content .title h1{
+    color: black;
+    letter-spacing: 3px;
+    font-size: 50px;
+}
+.about .fact .content .para p{
+   color: #464654;
+   font-size: 20px;
+   letter-spacing: 2px;
+
+}
+
+.about .cats .images img{
+    width: 100%;
+ 
+    padding: 0px 30px;
+    height: 400px;
+}
+.about .cats .col-md-6 {
+    padding-bottom: 40px;
+}
+
+
+/* End about area */
+
+
+    /* footer area */
+    .bottom{
+        background-image: url(/images/footer-background.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    .bottom{
+        position: relative;
+        bottom: 0px;
+       padding-bottom: 20px;
+    
+    }
+    /*End footer area */
+  
+}
+
+
+
+@media(max-width:812px){
+      /* Start home section */
+      .house .home {
+        padding-top: 200px;
+    } 
+    /* intro section */
+.house .intro .content .title h3 {
+    color: 
+    white;
+    font-size: 25px;
+}
+.house .intro .content {
+    padding-top: 130px;
+}
+/* End intro section*/
+/* ContactUS section*/
+/* message section*/
+.house .message .content .para p {
+    font-size: 18px;
+    color: 
+    #464654;
+    letter-spacing: 2px;
+    padding: 100px 0px;
+}
+/* End message section */
+.house .contactUS .content .para p {
+    font-size: 15px;
+    color: 
+    #444444;
+    letter-spacing: 1px;
+}
+
+/*End ContactUS section*/
+/* NASA section */
+.house .NASAV .video iframe {
+    width: 500px;
+    height: 300px;
+}
+
+/*End NASA section */
+/* team section*/
+.house .team .para p {
+    color: 
+    rgba(0,0,0,0.6);
+    font-size: 15px;
+    line-height: 1.3;
+    padding-top: 10px;
+}
+.house .team .padding {
+    padding-top: 50px;
+}
+
+  /* end team section*/
+ 
+ 
+    /* End home section */
+
+     /* about section */
+  .about #buns .para p {
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+.about .run .content .para p {
+    font-size: 10px;
+    line-height: 1.5;
+    color: 
+    black;
+}
+  /* end about section */
+}
+@media(max-width:414px){
+    /* Start home section */
+    .house .home {
+      padding-top: 300px;
+  } 
+  /* team section*/
+  .house .team .para p {
+    color: 
+    rgba(0,0,0,0.6);
+    font-size: 15px;
+    line-height: 1.3;
+    padding-top: 10px;
+}
+/* intro section */
+.house .intro .content .title h3 {
+    color: 
+    white;
+    font-size: 25px;
+}
+/* ContactUS section*/
+/* message section*/
+.house .message .content .para p {
+    font-size: 18px;
+    color: 
+    #464654;
+    letter-spacing: 2px;
+    padding: 100px 0px;
+}
+/* End message section */
+.house .contactUS .content .para p {
+    font-size: 15px;
+    color: 
+    #444444;
+    letter-spacing: 1px;
+}
+
+/*End ContactUS section*/
+/* NASA section */
+.house .NASAV .video iframe {
+    width: 340px;
+    height: 300px;
+}
+
+/*End NASA section */
+/* End intro section*/
+
+  /* end team section*/
+  /* End home section */
+
+  /* about section */
+  .about #buns .para p {
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+  /* end about section */
+  .blog .cluster .container{
+    width: 320px;
+}
+.blog .cluster .content .title h2 {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+    padding-top: 10px;
+    cursor: pointer;
+}
+}
+@media(max-width:800px){
+    .about #buns .para p {
+        font-size: 12px;
+        padding-bottom: 15px;
+    }
+   
+}
+
+@media(max-width:414px){
+    .house .intro .content {
+        padding-top: 380px;
+    }
+}
