@@ -1,6 +1,6 @@
 //jshint esversion:6
 
-//jshint esversion:6
+
 
 // Start Using Environment Variables to Keep Secret Safe like API address in app.js
 
