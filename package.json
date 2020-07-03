@@ -8,9 +8,6 @@
   },
   "author": "Joseph Wallace",
   "license": "ISC",
-  "engines": {
-    "node":"12.18.0"
-  },
   "dependencies": {
     "body-parse": "^0.1.0",
     "dotenv": "^8.2.0",
