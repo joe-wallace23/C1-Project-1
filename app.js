@@ -87,10 +87,10 @@ app.get("/home", function(req,res){
     res.render("nasa");
   })
 
-app.listen(3000, function() {
-  console.log("Server started on port 3000");
-});
+  app.listen(process.env.PORT || 3000,function(){
+    console.log("Server has started Successfully");
+ });
 
 
 
-//API: adderss: 579fe204344fc3d17589f5c08c27895e-us10
+
