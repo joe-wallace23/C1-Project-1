@@ -3,7 +3,7 @@
 //jshint esversion:6
 
 // Start Using Environment Variables to Keep Secret Safe like API address in app.js
-require('dotenv').config();
+
 // End Using Environment Variables to Keep Secret Safe like API address in app.js
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -51,11 +51,11 @@ app.get("/home", function(req,res){
    };
    const jsonData=JSON.stringify(data)
 
-   const url ="https://us10.api.mailchimp.com/3.0/lists/"+ process.env.ID;
+   const url ="https://us10.api.mailchimp.com/3.0/lists/1588889117 ";
 
    const options={
        method:"POST",
-       auth:"Joe26:"+ process.env.API_KEY
+       auth:"Joe26:579fe204344fc3d17589f5c08c27895e-us10"
    }
    const request = https.request(url, options, function(response){
        if(response.statusCode===200){
