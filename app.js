@@ -85,7 +85,7 @@ app.get("/home", function(req,res){
   });
   app.get("/nasa", function(req,res){
     res.render("nasa");
-  })
+  });
 
   app.listen(process.env.PORT || 3000,function(){
     console.log("Server has started Successfully");
